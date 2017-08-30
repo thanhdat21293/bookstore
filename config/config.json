@@ -1,0 +1,12 @@
+{
+  "development": {
+    "host"    : "localhost",
+    "port"    : 5433,
+    "database": "bookstore",
+    "username": "postgres",
+    "password": "abc",
+    "dialect" : "postgres",
+    "schema"  : "public",
+    "logging" : false
+  }
+}
