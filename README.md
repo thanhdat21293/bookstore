@@ -8,6 +8,18 @@ Bước 3: Tạo web sử dụng Express, Nunjucks, PostgreSQL. Nếu chưa có 
 
 Bước 4: Nâng cấp lên Vuejs + GraphQL (Bước này chưa cần quan tâm)
 
+# Công việc
+
+- Đạt (CSDL + Crawl)
+
+- Nam (Express)
+
+- Tú (CSDL)
+
+- Mạnh Linh (Express)
+
+- Văn Thanh (Crawl)
+
 # Node_modules đã cài
 
 ```
