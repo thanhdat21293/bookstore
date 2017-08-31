@@ -10,13 +10,15 @@ Bước 4: Nâng cấp lên Vuejs + GraphQL (Bước này chưa cần quan tâm)
 
 # Công việc
 
-- Đạt (CSDL + Crawl)
+- Đạt (CSDL + Crawl + Express)
 
 - Nam (Express)
 
 - Tú (CSDL)
 
-- Mạnh Linh (Express)
+- Duy (Express)
+
+- Mạnh Linh (Crawl)
 
 - Văn Thanh (Crawl)
 
@@ -40,7 +42,7 @@ npm i --save pg-promise bluebird express nunjucks body-parser nightmare
 
 - CSDL: Mọi người xem nếu có gì phản hồi ở SLack nhé. 
 
-- Crawl: Người Crawl khi crawling mà thấy có gì bất ổn thì báo mọi người để mọi người xem lại và sửa.
+- Crawl: Người Crawl khi crawling mà thấy có gì bất ổn về CSDL thì báo mọi người để mọi người xem lại và sửa.
 
 - Express: 
 

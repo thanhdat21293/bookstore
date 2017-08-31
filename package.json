@@ -6,12 +6,14 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async": "^2.5.0",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "^4.15.4",
     "hbs": "~4.0.1",
+    "image-downloader": "^3.2.2",
     "morgan": "~1.8.1",
     "nightmare": "^2.10.0",
     "nunjucks": "^3.0.1",
