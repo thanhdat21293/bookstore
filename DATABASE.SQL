@@ -22,25 +22,25 @@
     FOREIGN KEY (id_category) REFERENCES category (id)
 );
 
-﻿INSERT INTO category(name, parent) VALUES
-("Hardware & DIY",0),
-("Game Programming",0),
-("Security",0),
-("Marketing & SEO",0)
-("Software",0),
-("Programming",0),
-("Web Development",0),
-("Graphics & Design",0),
-("Datebases",0),
-("Networking & Cloud Computing",0),
-("Operating Systems",0),
-("Certification",0),
-("Administration",0),
-("Enterprise",0),
-("Computers & Technology",0),
-(".NET",6),
-("HTML,HTML5,CSS",7),
-("CMS",7),
-("C #",6),
-("C & C++",6),
-("APS.NET",7);
+INSERT INTO category(name, parent) VALUES
+('Hardware & DIY',0),
+('Game Programming',0),
+('Security',0),
+('Marketing & SEO',0)
+('Software',0),
+('Programming',0),
+('Web Development',0),
+('Graphics & Design',0),
+('Datebases',0),
+('Networking & Cloud Computing',0),
+('Operating Systems',0),
+('Certification',0),
+('Administration',0),
+('Enterprise',0),
+('Computers & Technology',0),
+('.NET',6),
+('HTML,HTML5,CSS',7),
+('CMS',7),
+('C #',6),
+('C & C++',6),
+('APS.NET',7);
