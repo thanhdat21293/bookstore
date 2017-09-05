@@ -1,0 +1,40 @@
+{% block header %}
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<header id="masthead" class="site-header" role="banner">
+    <div class="nav-inner">
+        <nav id="site-navigation" class="main-navigation clearfix" role="navigation">
+            <ul id="menu-allitebooks-com" class="site-nav">
+                <li><a title="All IT eBooks" href="/">All IT eBooks</a></li>
+                <li class=" dropbtn"><a title="All Categories" class="sf-with-ul">Categories</a>
+                    <ul class="dropdown-content sub-menu">
+                        {% for item in data.category %}
+                            <li class="dropbtn-1 "><a href="/category/{{ item.category | lower | replace(" ", "-") }}" class="sf-with-ul">{{ item.category }}</a>
+                                <ul class=" sub-menu-1">
+                                    {% for category_book in item.category_book %}
+                                        <li class="menu-item "><a href="#">{{ category_book }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                </li>
+            </ul>
+        </nav>
+        <!-- END #site-navigation -->
+        <div class="site-search">
+            <form role="search" method="get" id="searchform" class="searchform" action="/">
+                <input type="text" value="" name="search" id="s">
+                <span class="search-icon"><i class="glyphicon glyphicon-search"></i></span>
+                <input type="submit" id="searchsubmit" value="">
+            </form>
+        </div>
+        <!-- END .search-form -->
+    </div>
+    <!-- END .nav-inner -->
+</header>
+{% endblock %}

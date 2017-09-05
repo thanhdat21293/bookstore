@@ -49,14 +49,3 @@ npm i --save pg-promise bluebird express nunjucks body-parser nightmare
     + Chia router vào folder, tạo file đúng tên để nhìn tên file là biết có chức năng gì
     
     + Folder models để truy vấn CSDL
-
-###  chạy file insert dữ liệu vào bảng
-```javascript
-    let data = require('./product_aps.json');
-```
-#### Thay đổi tên file muốn insert vào cơ sở dữ liệu
-
-```
-    data[count].category = 21
-```
-#### Thay đổi theo đúng id của category trong database

@@ -1,0 +1,53 @@
+{% include './layout/header.html' %}
+
+<div id="content">
+{% include './layout/side-content.html' %}
+
+    <div id="main-content">
+        {% for book in detail %}
+        <article id="post-28041" class="post-list clearfix">
+            <header class="entry-header">
+                <h1 class="single-title">{{ book.name }}</h1>
+                <!-- END .entry-title -->
+                <div class="entry-meta clearfix">
+                    <div class="entry-body-thumbnail hover-thumb">
+                        <a href="/book/{{ book.name | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}">
+                            <img src="{{ book.images }}" alt="{{ book.name_book }}">		                        
+                        </a>
+                    </div>
+                    <!-- END .entry-thumbnail -->
+                    <div class="book-detail">
+                        <dl>
+                            <dt>Author:</dt>
+                            <dd>
+                                <a href="/author/{{ book.author | lower | replace(" ", "-") }}">{{book.author}}</a>
+                            </dd>
+                            <dt>ISBN-10:</dt>
+                            <dd> {{ book.isnb }}</dd>
+                            <dt>Year:</dt>
+                            <dd> {{ book.year }}</dd>
+                            <dt>Pages:</dt>
+                            <dd> {{ book.pages }}</dd>
+                            <dt>Language:</dt>
+                            <dd> {{ book.language }}</dd>
+                            <dt>File size:</dt>
+                            <dd> {{ book.file_size }} MB</dd>
+                            <dt>File format:</dt>
+                            <dd> {{ book.file_format }}</dd>
+                            <dt>Category:</dt>
+                            <dd>
+                                <a href="/category/{{ book.name_category | lower | replace(" ", "-") }}">{{ book.name_category }}</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <!-- END .entry-meta -->
+            </header>
+            <div class="entry-content">
+                <!-- <h3>Book Description:</h3> -->
+                <p> {{ book.description | safe }}</p>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</div>
