@@ -26,7 +26,7 @@ INSERT INTO category(name, parent) VALUES
 ('Hardware & DIY',0),
 ('Game Programming',0),
 ('Security',0),
-('Marketing & SEO',0)
+('Marketing & SEO',0),
 ('Software',0),
 ('Programming',0),
 ('Web Development',0),

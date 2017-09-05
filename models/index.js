@@ -14,9 +14,9 @@ const initOptions = {
 const connection = {
     host: 'localhost',
     port: 5432,
-    database: 'book_store',
+    database: 'bookstore',
     user: 'postgres',
-    password: 2110
+    password: 'sandiego'
 }
 const pgp = require('pg-promise')(initOptions)
 const db = module.exports = pgp(connection)

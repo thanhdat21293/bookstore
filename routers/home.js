@@ -1,14 +1,12 @@
 module.exports.home = function (app) {
-    const home = require('../models/getData').result.home
+    const home = require('../models/getData');
     // const category = require('../models/getData').result.getCategory()
 
     app.get('/', (req, res) => {
-        const file_render = 'index'
         // res.json(home)
-        home(file_render)
+        home.home()
             .then(data => {
-                // res.json(data)
-                res.render('index', {
+                res.render('index',{
                     data: data
                 })
             })
