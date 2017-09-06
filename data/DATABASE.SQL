@@ -4,7 +4,7 @@
     parent int
 )
 
-﻿CREATE TABLE public.bookstore(
+﻿CREATE TABLE bookstore(
 	id serial PRIMARY KEY,
     author varchar(100),
     id_category int,

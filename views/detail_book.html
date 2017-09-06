@@ -7,11 +7,11 @@
         {% for book in detail %}
         <article id="post-28041" class="post-list clearfix">
             <header class="entry-header">
-                <h1 class="single-title">{{ book.name }}</h1>
+                <h1 class="single-title">{{ book.name_book }}</h1>
                 <!-- END .entry-title -->
                 <div class="entry-meta clearfix">
                     <div class="entry-body-thumbnail hover-thumb">
-                        <a href="/book/{{ book.name | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}">
+                        <a href="/book/{{ book.name_book | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}">
                             <img src="{{ book.images }}" alt="{{ book.name_book }}">		                        
                         </a>
                     </div>
@@ -36,7 +36,7 @@
                             <dd> {{ book.file_format }}</dd>
                             <dt>Category:</dt>
                             <dd>
-                                <a href="/category/{{ book.name_category | lower | replace(" ", "-") }}">{{ book.name_category }}</a>
+                                <a href="/category/{{ book.category | lower | replace(" ", "-") }}">{{ book.category }}</a>
                             </dd>
                         </dl>
                     </div>

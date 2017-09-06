@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const router  = express.Router()
 const port = 3000
 const nunjucks = require('nunjucks')
 // const bodyParser = require('body-parser')
@@ -15,15 +16,18 @@ nunjucks.configure('views', {
     express: app,
     watch: true 
 })
-
 app.engine('html', nunjucks.render)
 app.set('view engine', 'html')
 
+// route-middleware must put after app.use(express.static('public'))
+app.use(router)
 /**
  *  All routers
+ *  router home: display all books
+ *  router detail_book: display information of a book, author, category
  */
-home(app)
-detail_book(app)
+home(router)
+detail_book(router)
 
 app.listen(port, function () {
     console.log(`Server on running on port ${port}!`)

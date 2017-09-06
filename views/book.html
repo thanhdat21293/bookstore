@@ -8,14 +8,14 @@
         {% for book in detail %}
             <article id="post-28041" class="post-list clearfix">
                 <div class="entry-thumbnail hover-thumb">
-                    <a href="/book/{{ book.name | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}" rel="bookmark">
-                        <img width="398" height="499" src="{{ book.images }}" alt="{{ book.name }}">		
+                    <a href="/book/{{ book.name_book | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}" rel="bookmark">
+                        <img width="398" height="499" src="{{ book.images }}" alt="{{ book.name_book }}">		
                     </a>
                 </div>
                 <!-- END .entry-thumbnail -->
                 <div class="entry-body">
                     <header class="entry-header">
-                        <h2 class="entry-title"><a href="/book/{{ book.name | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}" rel="bookmark">{{ book.name }}</a></h2>
+                        <h2 class="entry-title"><a href="/book/{{ book.name_book | lower |replace(" ", "-") |  replace(",", "") | replace("#", "-sharp") }}" rel="bookmark">{{ book.name_book }}</a></h2>
                         <!-- END .entry-title -->
                         <div class="entry-meta">
                             <span class="author vcard">
