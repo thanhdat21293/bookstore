@@ -1,4 +1,4 @@
-"id","author","id_category","isnb","description","link_dowload","file_format","file_size","images","language","name","pages","read_online","year"
+"id","author","id_category","isnb","description","link_download","file_format","file_size","images","language","name","pages","read_online","year"
 1,"Adam Freeman",16,"143024254X","
                     <h3>Book Description:</h3>
 						<p>ASP.NET 4.5 remains Microsoft’s preferred technology for creating dynamic websites, providing developers with unrivaled power and flexibility. Pro ASP.NET 4.5 in C# is the most complete reference to ASP.NET that you will find. This comprehensively revised fifth edition will teach you everything you need to know in order to create well-designed ASP.NET websites. Beginning with core concepts the book progresses steadily through key professional skills. You’ll be shown how to query databases in detail, consider the myriad applications of XML, and step through all the considerations you need to be aware of when securing your site from intruders. Finally, you’ll consider advanced topics such as using client-side validation, jQuery and Ajax. By the time you have read this book you will have learned all the skills you need to use ASP.NET 4.5 with confidence. This book is aimed at developers with a basic understanding on the .NET Framework who want to learn how to use it in a professional environment. Migrating readers without this foundation would be well served by reading Beginning ASP.NET 4.5 in C#, also by Apress, before tackling this book.</p>
@@ -238,36 +238,6 @@
 <li>Create complex web pages using advanced animations</li>
 </ul>
 											","http://file.allitebooks.com/20161110/HTML5%20and%20CSS3%20Transition,%20Transformation,%20and%20Animation.pdf","PDF","2.1 MB","http://www.allitebooks.com/wp-content/uploads/2016/11/HTML5-and-CSS3-Transition-Transformation-and-Animation-400x493.jpg","English","HTML5 and CSS3 Transition, Transformation, and Animation",136,"http://www.allitebooks.com/read/index.php?id=24891",2013
-18,"Lee Naylor",17,"1484221362","
-                    <h3>Book Description:</h3>
-						<div>This book will teach readers how to build and deploy a fully working example retail website using Microsoft ASP.NET MVC and Entity Framework technologies and recommendations. This book contains several solutions to real world issues that developers will frequently encounter.<p></p>
-</div>
-<div></div>
-<div>Whether you are a novice developer or an experienced .NET developer wishing to learn more about MVC and Entity Framework, author Lee Naylor will teach you how to develop a detailed database driven example website using Microsoft ASP.NET and Entity Framework Code First with fully explained code examples including:<p></p>
-</div>
-<div></div>
-<div>• Filtering and Searching Related Data using Linq</div>
-<div>• Using code first migrations to automatically update the database plus seeding data from code</div>
-<div>• How to use Visual Studio Scaffolding views and controllers</div>
-<div>• Manage CRUD operations including model binding as recommended by Microsoft and dealing with cascading deletions correctly</div>
-<div>• Input and data validation using Attributes</div>
-<div>• Sorting and paging through data and routing for friendly URL formats</div>
-<div>• Authorization and Authentication using Microsoft Identity v2 by making use of Microsoft example code including correct use of redirection after login and registration</div>
-<div>• Advanced techniques including managing data concurrency conflicts and using two database contexts</div>
-<div>• Asynchronous database access and paging</div>
-<div>• Azure deployment using Code First Migrations, remote debugging and viewing/editing your remote data</div>
-<div>• CSS Styling including animation and media queries<p></p>
-</div>
-<div></div>
-<div>What You Will Learn:<p></p>
-</div>
-<div></div>
-<div>• Get up and running quickly with ASP.NET MVC and Entity Framework building a complex web site to display and manage several related entities</div>
-<div>• How to integrate Identity code into a project</div>
-<div>• Advanced topics including: Asynchronous database access and managing data conflicts</div>
-<div>• Working with&nbsp;Microsoft&nbsp;Azure including remote debugging and database access</div>
-<div>• CSS skills including animations and media queries for use with tablet or mobile/cell phone devices</div>
-											","http://file.allitebooks.com/20160928/ASP.NET%20MVC%20with%20Entity%20Framework%20and%20CSS.pdf","PDF","30.6 MB","http://www.allitebooks.com/wp-content/uploads/2016/09/ASP.NET-MVC-with-Entity-Framework-and-CSS.jpg","English","ASP.NET MVC with Entity Framework and CSS",608,"http://www.allitebooks.com/read/index.php?id=24210",2016
 19,"Alex Libby",17,"1785885898","
                     <h3>Book Description:</h3>
 						<p>PostCSS is a tool that has quickly emerged as the future of existing preprocessors such as SASS and Less, mainly because of its power, speed, and ease of use. This comprehensive guide offers in-depth guidance on incorporating cutting-edge styles into your web page and at the same time maintaining the performance and maintainability of your code.</p>
@@ -549,16 +519,6 @@
 </ul>
 <p>Professional Test-Driven Development with C# shows you how to create great TDD processes right away.</p>
 											","http://file.allitebooks.com/20170327/Professional%20Test%20Driven%20Development%20with%20C-.pdf","PDF","47.9 MB","http://www.allitebooks.com/wp-content/uploads/2017/03/Professional-Test-Driven-Development-with-C.jpg","English","Professional Test Driven Development with C#",361,"http://www.allitebooks.com/read/index.php?id=27050",2011
-35,"Julian Templeman",19,"1590595726","
-                    <h3>Book Description:</h3>
-						<p>* Steers reader through the spectrum of ASP.NET web programming concepts.</p>
-<p>* Developers and programmers can learn language and theory simultaneously.</p>
-<p>* Professional ASP.NET developers and wannabes can master the core techniques to develop good coding practices to enhance their long-term skill set.</p>
-											","http://file.allitebooks.com/20170325/Beginning%20ASP.NET%202.0%20in%20C%202005,%202nd%20Edition.pdf","PDF","16.3 MB","http://www.allitebooks.com/wp-content/uploads/2017/03/Beginning-ASP.NET-2.0-in-C-2005.jpg","English","Beginning ASP.NET 2.0 in C# 2005, 2nd Edition",1184,"http://www.allitebooks.com/read/index.php?id=27034",2006
-36,"Adam Freeman",19,"143024254X","
-                    <h3>Book Description:</h3>
-						<p>ASP.NET 4.5 remains Microsoft’s preferred technology for creating dynamic websites, providing developers with unrivaled power and flexibility. Pro ASP.NET 4.5 in C# is the most complete reference to ASP.NET that you will find. This comprehensively revised fifth edition will teach you everything you need to know in order to create well-designed ASP.NET websites. Beginning with core concepts the book progresses steadily through key professional skills. You’ll be shown how to query databases in detail, consider the myriad applications of XML, and step through all the considerations you need to be aware of when securing your site from intruders. Finally, you’ll consider advanced topics such as using client-side validation, jQuery and Ajax. By the time you have read this book you will have learned all the skills you need to use ASP.NET 4.5 with confidence. This book is aimed at developers with a basic understanding on the .NET Framework who want to learn how to use it in a professional environment. Migrating readers without this foundation would be well served by reading Beginning ASP.NET 4.5 in C#, also by Apress, before tackling this book.</p>
-											","http://file.allitebooks.com/20170325/Pro%20ASP%20.NET%204.5%20in%20C,%205th%20Edition.pdf","PDF","23.6 MB","http://www.allitebooks.com/wp-content/uploads/2017/03/Pro-ASP-.NET-4.5-in-C-5th-Edition.jpg","English","Pro ASP .NET 4.5 in C#, 5th Edition",1187,"http://www.allitebooks.com/read/index.php?id=27037",2013
 37,"Mathieu Nayrolles",19,"1849691401","
                     <h3>Book Description:</h3>
 						<p>Multiplatform applications have taken the development world by storm. This has revolutionized the selection of the right tools for the efficient development and deployment of applications. Xamarin studio is emerging as the preferred choice among .NET/C# developers. It enables them to design cross-platform applications using their favorite language and IDE. Xamarin studio is supported by the Mac OS and Windows platforms, and you can develop your own applications for iOS, Windows, or Android with its help.</p>
@@ -784,139 +744,3 @@
 <li>Utilize the various editors, tools, and features such as UI, the particle system, audio, terrain manipulation, and cinematics in Unreal Engine 4 to create game levels</li>
 </ul>
 											","http://file.allitebooks.com/20170204/Learning%20Unreal%20Engine%20Game%20Development.pdf","PDF","18.7 MB","http://www.allitebooks.com/wp-content/uploads/2017/02/Learning-Unreal-Engine-Game-Development-400x493.jpg","English","Learning Unreal Engine Game Development",468,"http://www.allitebooks.com/read/index.php?id=26404",2016
-51,"Adam Freeman",21,"143024254X","
-                    <h3>Book Description:</h3>
-						<p>ASP.NET 4.5 remains Microsoft’s preferred technology for creating dynamic websites, providing developers with unrivaled power and flexibility. Pro ASP.NET 4.5 in C# is the most complete reference to ASP.NET that you will find. This comprehensively revised fifth edition will teach you everything you need to know in order to create well-designed ASP.NET websites. Beginning with core concepts the book progresses steadily through key professional skills. You’ll be shown how to query databases in detail, consider the myriad applications of XML, and step through all the considerations you need to be aware of when securing your site from intruders. Finally, you’ll consider advanced topics such as using client-side validation, jQuery and Ajax. By the time you have read this book you will have learned all the skills you need to use ASP.NET 4.5 with confidence. This book is aimed at developers with a basic understanding on the .NET Framework who want to learn how to use it in a professional environment. Migrating readers without this foundation would be well served by reading Beginning ASP.NET 4.5 in C#, also by Apress, before tackling this book.</p>
-											","http://file.allitebooks.com/20170325/Pro%20ASP%20.NET%204.5%20in%20C,%205th%20Edition.pdf","PDF","23.6 MB","http://www.allitebooks.com/wp-content/uploads/2017/03/Pro-ASP-.NET-4.5-in-C-5th-Edition.jpg","English","Pro ASP .NET 4.5 in C#, 5th Edition",1187,"http://www.allitebooks.com/read/index.php?id=27037",2013
-52,"Julian Templeman",21,"1590595726","
-                    <h3>Book Description:</h3>
-						<p>* Steers reader through the spectrum of ASP.NET web programming concepts.</p>
-<p>* Developers and programmers can learn language and theory simultaneously.</p>
-<p>* Professional ASP.NET developers and wannabes can master the core techniques to develop good coding practices to enhance their long-term skill set.</p>
-											","http://file.allitebooks.com/20170325/Beginning%20ASP.NET%202.0%20in%20C%202005,%202nd%20Edition.pdf","PDF","16.3 MB","http://www.allitebooks.com/wp-content/uploads/2017/03/Beginning-ASP.NET-2.0-in-C-2005.jpg","English","Beginning ASP.NET 2.0 in C# 2005, 2nd Edition",1184,"http://www.allitebooks.com/read/index.php?id=27034",2006
-53,"Brenton J.W. Blawat",21,"1782173552","
-                    <h3>Book Description:</h3>
-						<p>PowerShell is quickly becoming the de facto standard for scripting in Microsoft Windows environments. It enables the automation of otherwise complex tasks, providing interactivity between different products.</p>
-<p>Beginning with PowerShell fundamentals, this book progresses by imparting the advanced skills required to master automation. You will learn how to deal with data and operations on various data types and structures, and see the techniques of data manipulation and parsing. Moving on, you will learn about the usage of regular expressions and comparison operators. Error handling techniques will enable you to identify and eliminate errors. This book also provides best practices for scripting and techniques to reduce the amount of code required to complete tasks.</p>
-<p>By the end of this book, you will be able to create a variety of PowerShell scripts and successfully automate your environment and become the go-to person.</p>
-<p>Who This Book Is For</p>
-<p>If you are a system administrator who wants to become an expert in controlling and automating your Windows environment, then this book is for you. Prior knowledge of PowerShell’s core elements and applications is required for this book.</p>
-<p>What You Will Learn</p>
-<ul>
-<li>Utilize variables, hashes, and arrays to store data</li>
-<li>Parse and manipulate different data types</li>
-<li>Optimize code through the use of functions, switches, and looping structures</li>
-<li>Create and implement regular expressions in PowerShell scripts</li>
-<li>Leverage session-based remote management</li>
-<li>Manage files, folders, and registries through the use of PowerShell</li>
-<li>Discover the best practices to manage Microsoft systems</li>
-</ul>
-											","http://file.allitebooks.com/20170318/Mastering%20Windows%20PowerShell%20Scripting.pdf","PDF","3.19 MB","http://www.allitebooks.com/wp-content/uploads/2017/03/Mastering-Windows-PowerShell-Scripting-400x494.jpg","English","Mastering Windows PowerShell Scripting",220,"http://www.allitebooks.com/read/index.php?id=26960",2015
-54,"Ovais Mehboob Ahmed Khan",21,"1785886460","
-                    <h3>Book Description:</h3>
-						<p>If you want to improve responsiveness or the UX in your ASP.NET applications, JavaScript can be a life saver. In an age where server-side operations have shifted to the client, being able to handle JavaScript with confidence and fluency is vital for ASP.NET developers. There’s no point trying to fight it, so start learning with this book. Make sure your projects exceed user expectations.</p>
-<p>Begin by getting stuck into the basics of JavaScript, and explore the language in the context of ASP.NET Core. You’ll then find out how to put the principles into practice, as you learn how to develop a basic ASP.NET application using Angular 2 and TypeScript. You’ll also develop essential skills required to develop responsive apps, with a little help from AJAX, ensuring that you’re building projects that can be easily accessed across different devices.</p>
-<p>With guidance on Node.js and some neat techniques to test and debug a range of JavaScript libraries in Visual Studio, you’ll soon be well on your way to combining JavaScript with ASP.NET in a way that’s capable of meeting the challenges of modern web development head-on.</p>
-<p>What you will learn</p>
-<ul>
-<li>Get to grips with the basic to advanced concepts of JavaScript</li>
-<li>Learn how to use JavaScript on server side using Node.js</li>
-<li>Develop web applications in ASP.NET using JavaScript</li>
-<li>Get to know with industry-wide best practices and design patterns that provide maintainability and scalability</li>
-<li>Build an ASP.NET application using Angular 2 with TypeScript and Web API</li>
-<li>Explore WinJS and see how to use mobile capabilities from web applications</li>
-<li>Use JavaScript to develop scalable ASP.NET applications</li>
-<li>See how to test and debug JavaScript</li>
-</ul>
-											","http://file.allitebooks.com/20170125/JavaScript%20for%20.NET%20Developers.pdf","PDF","6.1 MB","http://www.allitebooks.com/wp-content/uploads/2017/01/JavaScript-for-.NET-Developers-400x493.jpg","English","JavaScript for .NET Developers",447,"http://www.allitebooks.com/read/index.php?id=26289",2016
-55,"Pieter van der Westhuizen",21,"1785889478","
-                    <h3>Book Description:</h3>
-						<p>One of the leading open source frontend frameworks, Bootstrap has undergone a significant change and introduced several features that make designing compelling, next-generation UIs much simpler. Integrating Bootstrap with ASP.NET’s powerful components can further enhance its capabilities.</p>
-<p>This book guides you through the process of creating an ASP.NET MVC website from scratch using Bootstrap. You will learn about the various Bootstrap components as well as techniques to include them in your own projects. The book includes practical examples to show you how to use open source plugins with Bootstrap and ASP.NET MVC and guides you through building an ASP.NET MVC website using Bootstrap, utilizing layout and user interface components. At the end of this book, you will find some valuable tips and tricks to help you get the most out of your Bootstrap- and ASP.NET MVC-integrated website.</p>
-<p>What You Will Learn</p>
-<ul>
-<li>Create a new ASP.Net MVC 6 project that uses Bootstrap for its styling and learn how to include external libraries using the new package managers</li>
-<li>Learn to use the various Bootstrap CSS and HTML elements, and how to use the new Bootstrap 4 grid layout system with ASP.Net MVC</li>
-<li>Explore the different input groups and implement alerts, progress bars, and badges</li>
-<li>Explore JavaScript components by illustrating and walking through the process of using JavaScript/JQuery to add interactivity to Twitter Bootstrap components</li>
-<li>Build your own ASP.Net MVC helpers and tag helpers to reduce the amount of HTML needed to generate Bootstrap elements in your projects</li>
-<li>Convert a Bootstrap HTML template into a usable ASP.Net MVC project</li>
-<li>Use the jQuery DataTables plugin with Bootstrap and ASP.Net MVC</li>
-<li>Learn to include and use the TwitterBootstrapMVC library in an ASP.Net MVC project</li>
-</ul>
-											","http://file.allitebooks.com/20161012/Bootstrap%20for%20ASP.NET%20MVC,%202nd%20Edition.pdf","PDF","5.2 MB","http://www.allitebooks.com/wp-content/uploads/2016/10/Bootstrap-for-ASP.NET-MVC-2nd-Edition-400x493.jpg","English","Bootstrap for ASP.NET MVC, 2nd Edition",265,"http://www.allitebooks.com/read/index.php?id=24443",2017
-56,"Joydip Kanjilal",21,"1847193951","
-                    <h3>Book Description:</h3>
-						<p>This book shows you how to get the most from the ASP.NET data presentation controls to easily display and manage complex data in your web applications. This book takes you through the most important tasks for working with the ASP.NET data presentation controls. Packed with example code and clear explanations, this book will make you a master of these controls in no time.This book is for ASP.NET developers who want to display or manage data in ASP.NET applications. The code examples are in C#.</p>
-											","http://file.allitebooks.com/20161124/ASP.NET%20Data%20Presentation%20Controls%20Essentials.pdf","PDF","7.6 MB","http://www.allitebooks.com/wp-content/uploads/1480/3658378fcacaee4.jpg","English","ASP.NET Data Presentation Controls Essentials",256,"http://www.allitebooks.com/read/index.php?id=25125",2007
-57,"Lee Naylor",21,"1484221362","
-                    <h3>Book Description:</h3>
-						<div>This book will teach readers how to build and deploy a fully working example retail website using Microsoft ASP.NET MVC and Entity Framework technologies and recommendations. This book contains several solutions to real world issues that developers will frequently encounter.<p></p>
-</div>
-<div></div>
-<div>Whether you are a novice developer or an experienced .NET developer wishing to learn more about MVC and Entity Framework, author Lee Naylor will teach you how to develop a detailed database driven example website using Microsoft ASP.NET and Entity Framework Code First with fully explained code examples including:<p></p>
-</div>
-<div></div>
-<div>• Filtering and Searching Related Data using Linq</div>
-<div>• Using code first migrations to automatically update the database plus seeding data from code</div>
-<div>• How to use Visual Studio Scaffolding views and controllers</div>
-<div>• Manage CRUD operations including model binding as recommended by Microsoft and dealing with cascading deletions correctly</div>
-<div>• Input and data validation using Attributes</div>
-<div>• Sorting and paging through data and routing for friendly URL formats</div>
-<div>• Authorization and Authentication using Microsoft Identity v2 by making use of Microsoft example code including correct use of redirection after login and registration</div>
-<div>• Advanced techniques including managing data concurrency conflicts and using two database contexts</div>
-<div>• Asynchronous database access and paging</div>
-<div>• Azure deployment using Code First Migrations, remote debugging and viewing/editing your remote data</div>
-<div>• CSS Styling including animation and media queries<p></p>
-</div>
-<div></div>
-<div>What You Will Learn:<p></p>
-</div>
-<div></div>
-<div>• Get up and running quickly with ASP.NET MVC and Entity Framework building a complex web site to display and manage several related entities</div>
-<div>• How to integrate Identity code into a project</div>
-<div>• Advanced topics including: Asynchronous database access and managing data conflicts</div>
-<div>• Working with&nbsp;Microsoft&nbsp;Azure including remote debugging and database access</div>
-<div>• CSS skills including animations and media queries for use with tablet or mobile/cell phone devices</div>
-											","http://file.allitebooks.com/20160928/ASP.NET%20MVC%20with%20Entity%20Framework%20and%20CSS.pdf","PDF","30.6 MB","http://www.allitebooks.com/wp-content/uploads/2016/09/ASP.NET-MVC-with-Entity-Framework-and-CSS.jpg","English","ASP.NET MVC with Entity Framework and CSS",608,"http://www.allitebooks.com/read/index.php?id=24210",2016
-58,"Curt Christianson",21,"1847193617","
-                    <h3>Book Description:</h3>
-						<p>This step-by-step tutorial shows the reader how to build an ASP.NET Content Management System from scratch. You will first learn the basics of a content management system and how to set up the tools you need to build your site. Then, you start building your site, setting up users, and adding content to your site. You will be able to edit the content of your site and also manage its layout all by yourself. Towards the end, you will learn to manage your site from a single point and will have all the information you need to extend your site to make it more powerful. Filled with plenty of code snippets and screen images to keep you on track as well as numerous additional samples to show you all the exciting alternatives to explore, this book prepares you for all the challenges you can face in development. This book is for beginner to intermediate ASP.NET users who have managed to learn Visual Web Developer and want to take on their first real-world application. It will help those who have used SQL Server Express, completed a few sample projects, and now wish to explore a Content Management System.</p>
-											","http://file.allitebooks.com/20170117/ASP.NET%203.5%20CMS%20Development.pdf","PDF","10.4 MB","http://www.allitebooks.com/wp-content/uploads/2017/01/ASP.NET-3.5-CMS-Development.jpg","English","ASP.NET 3.5 CMS Development",284,"http://www.allitebooks.com/read/index.php?id=26226",2009
-59,"James Singleton",21,"1785881892","
-                    <h3>Book Description:</h3>
-						<p>ASP.NET Core is the new, open source, and cross-platform, web-application framework from Microsoft. It’s a stripped down version of ASP.NET that’s lightweight and fast. This book will show you how to make your web apps deliver high performance when using it.</p>
-<p>We’ll address many performance improvement techniques from both a general web standpoint and from a C#, ASP.NET Core, and .NET Core perspective. This includes delving into the latest frameworks and demonstrating software design patterns that improve performance.</p>
-<p>We will highlight common performance pitfalls, which can often occur unnoticed on developer workstations, along with strategies to detect and resolve these issues early. By understanding and addressing challenges upfront, you can avoid nasty surprises when it comes to deployment time.</p>
-<p>We will introduce performance improvements along with the trade-offs that they entail. We will strike a balance between premature optimization and inefficient code by taking a scientific- and evidence-based approach. We’ll remain pragmatic by focusing on the big problems.</p>
-<p>By reading this book, you’ll learn what problems can occur when web applications are deployed at scale and know how to avoid or mitigate these issues. You’ll gain experience of how to write high-performance applications without having to learn about issues the hard way.</p>
-<p>You’ll see what’s new in ASP.NET Core, why it’s been rebuilt from the ground up, and what this means for performance. You will understand how you can now develop on and deploy to Windows, Mac OS X, and Linux using cross-platform tools, such as Visual Studio Code.</p>
-<p>What You Will Learn</p>
-<ul>
-<li>Why performance matters and when it should be considered</li>
-<li>Use different tools to measure performance</li>
-<li>Spot common performance issues, their root causes, and how to easily mitigate them</li>
-<li>Improve performance at the network level and I/O level, and how to optimize the application as a whole</li>
-<li>Work with caching and message queuing tools, including patterns and strategies</li>
-<li>Discover the dark side of performance improvement and find out how to manage complexity</li>
-<li>Monitor performance as part of continuous integration and regression testing</li>
-<li>Assess and solve performance issues with other advanced technologies</li>
-</ul>
-											","http://file.allitebooks.com/20161227/ASP.NET%20Core%201.0%20High%20Performance.pdf","PDF","6.8 MB","http://www.allitebooks.com/wp-content/uploads/2016/12/ASP.NET-Core-1.0-High-Performance-400x493.jpg","English","ASP.NET Core 1.0 High Performance",330,"http://www.allitebooks.com/read/index.php?id=25906",2016
-60,"Jamie Dixon",21,"1785888404","
-                    <h3>Book Description:</h3>
-						<p>.NET is one of the widely used platforms for developing applications. With the meteoric rise of machine learning, developers are now keen on finding out how to make their .NET applications smarter using machine learning.</p>
-<p>Mastering .NET Machine Learning is packed with real-world examples to explain how to easily use machine learning techniques in your business applications. You will begin with an introduction to F# and prepare yourselves for machine learning using the .NET Framework. You will then learn how to write a simple linear regression model and, forming a base with the regression model, you will start using machine learning libraries available in .NET Framework such as Math.NET, numl, and Accord.NET with examples. Next, you are going to take a deep dive into obtaining, cleaning, and organizing your data. You will learn the implementation of k-means and PCA using Accord.NET and numl libraries. You will be using Neural Networks, AzureML, and Accord.NET to transform your application into a hybrid scientific application. You will also see how to deal with very large datasets using MBrace and deploy machine learning models to IoT devices so that the machine can learn and adapt on the fly.</p>
-<p>What You Will Learn</p>
-<ul>
-<li>Write your own machine learning applications and experiments using the latest .NET Framework, including .NET Core 1.0</li>
-<li>Set up your business application to start using machine learning</li>
-<li>Accurately predict the future of your data using simple, multiple, and logistic regressions</li>
-<li>Discover hidden patterns using decision trees</li>
-<li>Acquire, prepare, and combine datasets to drive insights</li>
-<li>Optimize business throughput using Bayes Classifier</li>
-<li>Discover (more) hidden patterns using k-NN and Naive Bayes</li>
-<li>Discover (even more) hidden patterns using k-means and PCA</li>
-<li>Use Neural Networks to improve business decision making while using the latest ASP.NET technologies</li>
-</ul>
-											","http://file.allitebooks.com/20160908/Mastering%20.NET%20Machine%20Learning.pdf","PDF","10.5 MB","http://www.allitebooks.com/wp-content/uploads/2016/09/Mastering-.NET-Machine-Learning-400x493.jpg","English","Mastering .NET Machine Learning",465,"http://www.allitebooks.com/read/index.php?id=23907",2016
