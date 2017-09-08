@@ -1,8 +1,8 @@
 
-{% include './layout/header.html' %}
+    {% include './layout/header.html' %}
 
 <div id="content">
-{% include './layout/side-content.html' %}
+    {% include './layout/side-content.html' %}
 
     <div id="main-content">
         {% for book in data.home %}
@@ -33,6 +33,25 @@
                 <!-- END .entry-body -->
             </article>
         {% endfor %}
+    </div>
+    <div class="pagination clearfix">
+            {% if data.pagination.page_current === 2   %}
+            <a href="/" class="previous">&laquo; Previous</a>
+            {% elif data.pagination.page_current > 2 %}
+                <a href="/page/{{  data.pagination.page_current - 1 }}" class="previous">&laquo; Previous</a>    
+            {% endif %}
+            <span class="pages">{{ data.pagination.page_current }} / {{ data.pagination.total_pages }} Pages</span> 
+            {% for page in range (1, data.pagination.total_pages + 1) %}
+                {% if data.pagination.page_current === page %}
+                    <span class="current">{{ data.pagination.page_current }}</span> 
+                {% elif page === 1  %}    
+                    <a href="/" title="{{ page }}">{{ page }}</a>
+                {% else %}
+                    <a href="/page/{{ page }}" title="{{ page }}">{{ page }}</a>
+                {% endif %}
+            {% endfor %}
+            <a href="/page/{{  data.pagination.page_current + 1 }}" class="next" >Next &raquo;</a>
+            <!-- <span class="extend">...</span> -->
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>

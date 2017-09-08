@@ -14,8 +14,8 @@ const initOptions = {
 const connection = {
     host: 'localhost',
     port: 5432,
-    database: 'bookstore',
-    user: 'postgres',
+    database: 'book_store',
+    user: 'namdoremon',
     password: 2110
 }
 const pgp = require('pg-promise')(initOptions)

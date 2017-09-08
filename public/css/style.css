@@ -5,8 +5,7 @@
 body {
   font-size: 14px;
   line-height: 1.428571429;
-  color: #4e5860;
-  background-color: #f2f2f2;
+  background-color: #d8d6d6;
 }
 
 a {
@@ -168,24 +167,25 @@ a:hover {
   padding: 25px;
   max-width: 1000px;
   width: 100%;
-  background: #fff;
   min-height: 100%;
   display: block;
   margin: 25px auto;
 }
 #side-content {
+  background: #fff;
   width: 220px;
   height: 90%;
   float: left;
-  /* border: 1px solid green; */
+  padding-top: 15px;
+  padding-left: 20px;
+  border-right: 1px solid #d8d6d6;
 }
 #main-content {
   padding: 0;
   width: 730px;
   height: auto;
   float: left;
-  /* border: 1px  solid blue; */
-  /* overflow: hidden; */
+  background: #fff;
 }
 #main-content img {
   max-width: 100%;
@@ -194,7 +194,7 @@ a:hover {
 .post-list {
   position: relative;
   height: 230px;
-  padding: 0 0 25px 0;
+  padding: 0 0 25px 20px;
   margin-top: 10px;
   margin-bottom: 25px;
   border-bottom: 1px solid #e5e5e5;
@@ -296,3 +296,36 @@ h3 {
   color: #2a3744;
 }
 
+.pagination {
+  float: right;
+  margin: 20px 0;
+}
+.pagination span {
+  float: left;
+  padding: 2px 8px;
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: normal;
+  background-color: #FAFAFA;
+  border: 1px solid #dddddd;
+  color: #828282;
+  margin-left: 5px;
+}
+.pagination span.current {
+  background-color: #ff4629;
+  color: white;
+  border-color: #ff4629;
+  cursor: default;
+}
+
+.pagination a, .pagination span {
+  float: left;
+  padding: 2px 8px;
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: normal;
+  background-color: #FAFAFA;
+  border: 1px solid #dddddd;
+  color: #828282;
+  margin-left: 5px;
+}

@@ -11,7 +11,7 @@ module.exports.detail_book = function (router) {
         detail(name_field, file_render)
             .then(data => {
                 /**
-                 *  Using loop to check, if items exist, it'll push into an array to send to client.
+                 *  Using loop to check, if items exist,they will be pushed into an array to send to client.
                  *  Return an Array[].
                  */
                 let result = []
@@ -39,7 +39,7 @@ module.exports.detail_book = function (router) {
         detail(name_field, file_render)
             .then(data => {
                 /**
-                 *  Using loop to check, if items exist, it'll push into an array to send to client.
+                 *  Using loop to check, if items exist, they will be pushed into an array to send to client.
                  *  Return an Array[].
                  */
                 let result = []
@@ -67,7 +67,7 @@ module.exports.detail_book = function (router) {
         detail(name_field, file_render)
             .then(data => {
                 /**
-                 *  Using loop to check, if items appear exist, it'll push into an array to send to client.
+                 *  Using loop to check, if items appear exist, they will be pushed into an array to send to client.
                  *  Return an Array[].
                  */
                 let result = []
